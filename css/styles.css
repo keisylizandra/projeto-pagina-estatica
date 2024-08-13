@@ -56,6 +56,20 @@ header #nav-bar .nav-list .nav-item a:hover {
     color: #636262;
     transition: color 0.3s;
 }
+
+header #nav-bar .hamburguer-menu {
+    display: none;
+}
+
+@media (max-width: 740px) {
+    header #nav-bar .hamburguer-menu {
+        display: block;
+    }
+
+    header #nav-bar .nav-list {
+        display: none;
+    }
+}
     
 /* SECTION BANNER */
 
@@ -100,6 +114,18 @@ main #banner .banner-image {
     border-radius: 50%;
     width: 100%;
     max-width: 350px;
+}
+
+@media (max-width: 920px) {
+    main #banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    main #banner .banner-content {
+        text-align: center;
+    }
 }
 
 /* SECTIONS POSTS */
@@ -155,4 +181,10 @@ section#posts {
     font-weight: 400;
     margin-bottom: 24px;
     display: block;
+}
+
+@media (max-width: 740px) {
+    #posts .posts-content .posts-cards {
+        flex-direction: column;
+    }
 }
