@@ -102,4 +102,57 @@ main #banner .banner-image {
     max-width: 350px;
 }
 
+/* SECTIONS POSTS */
 
+section#posts {
+    margin-top: 4.4rem;
+    background-color: #edf7fa;
+}
+
+#posts .posts-content {
+    max-width: 75rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+#posts .posts-content .posts-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#posts .posts-content .posts-content-header .section-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#posts .posts-content .posts-content-header .view-all-link {
+    text-decoration: none;
+    color: #00a8cc;
+}
+
+#posts .posts-content .posts-cards {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+#posts .posts-content .posts-cards .post-card {
+    background-color: white;
+    padding: 24px;
+    
+}
+
+#posts .posts-content .posts-cards .post-card h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+
+#posts .posts-content .posts-cards .post-card span {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    display: block;
+}
